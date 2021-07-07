@@ -1,4 +1,4 @@
-﻿html {
+html {
   height: 100%;
   width: 100%;
 }
@@ -91,8 +91,10 @@ body.home .middlebar {
   color: #fff;
 }
 body.home .middlebar .teaser {
-  max-width: 450px;
   padding: 2em;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
 }
 body.home .middlebar h1 {
   margin: 0;
@@ -175,14 +177,26 @@ body.booking .form-group .form-control {
 }
 /* Admin */
 option.unavailable {
-    background-color: lightsalmon;
+  background-color: lightsalmon;
 }
 option.available {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
-
 @media (min-width: 1200px) {
   .container {
     width: 970px;
   }
+}
+/* BHPGK */
+.sponsor-container {
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.sponsor-container p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+.sponsor-container a {
+  display: inline-block;
 }
